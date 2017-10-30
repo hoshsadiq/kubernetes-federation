@@ -1,0 +1,7 @@
+output.txt
+.vagrant
+*.log
+config/kube/*
+!config/kube/.gitkeep
+config/tmp/*
+!config/tmp/.gitkeep

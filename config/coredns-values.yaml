@@ -1,0 +1,10 @@
+isClusterService: false
+serviceType: "NodePort"
+middleware:
+  kubernetes:
+    enabled: false
+  etcd:
+    enabled: true
+    zones:
+    - "f8n.io"
+    endpoint: "http://etcd-cluster.federation:2379"
